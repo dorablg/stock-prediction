@@ -1,4 +1,3 @@
-import os
 import numpy as np
 import pandas as pd
 import yfinance as yf
@@ -7,12 +6,9 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 
-# Determine the path to the current script directory
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
 # Load the model
 def load_stock_model():
-    model_path = os.path.join(BASE_DIR, 'Stock Predictions Model.keras')
+    model_path = r'C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Stock Predictions Model.keras'
     model = load_model(model_path)
     return model
 
