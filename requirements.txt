@@ -3,6 +3,6 @@ numpy
 pandas
 yfinance
 tensorflow-intel==2.16.1
-keras>=2.8.0,<2.9.0
+keras
 matplotlib
 scikit-learn
