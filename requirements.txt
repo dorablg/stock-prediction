@@ -2,7 +2,7 @@ streamlit
 numpy
 pandas
 yfinance
-keras
+tensorflow==2.8.0
+keras==2.8.0
 matplotlib
 scikit-learn
-tensorflow 
