@@ -8,7 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 # Load the model
 def load_stock_model():
-    model_path = r'C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Stock Predictions Model.keras'
+    model_path = r'C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\stock\Stock Predictions Model.keras'
     model = load_model(model_path)
     return model
 
